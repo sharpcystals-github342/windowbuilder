@@ -14,16 +14,18 @@ end)
 local minimizingConnection = window.windowMinimising:Connect(function()
 print("Window is minimizing")
 end)
-
-self.windowPosition: UDim2
-self.windowSize: UDim2
-self.title: string
-self.processID: number
-self.UI: Instance
-self.MainFrame: Instance
-self.windowClosed: Event
-self.windowMinimising: Event
-self.minimized: boolean
-self.minimizedButton
-self.storedContents
+--[[
+  Window:
+    self.windowPosition: UDim2
+    self.windowSize: UDim2
+    self.title: string
+    self.processID: number
+    self.UI: Instance
+    self.MainFrame: Instance
+    self.windowClosed: Event
+    self.windowMinimising: Event
+    self.minimized: boolean
+    self.minimizedButton
+    self.storedContents
+]]
 ```
