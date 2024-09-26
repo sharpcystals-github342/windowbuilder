@@ -2,6 +2,7 @@
 build em windows n stuff
 
 **Usage**
+```lua
 local WindowBuilder = loadstring(game:HttpGet("https://raw.githubusercontent.com/sharpcystals-github342/windowbuilder/refs/heads/main/main.lua"))()
 
 local window = WindowBuilder.createWindow(UDim2.new(0.5, -150, 0.5, -100), UDim2.new(0, 300, 0, 200), "something")
@@ -25,3 +26,4 @@ self.windowMinimising: Event
 self.minimized: boolean
 self.minimizedButton
 self.storedContents
+```
